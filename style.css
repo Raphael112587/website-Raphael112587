@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: #C1B7A2;
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -21,9 +21,13 @@ article {
     text-align: justify;
 }
 
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
 
 header {
-    color: skyblue;
+    color: rgb();
     text-align: center;
 }
 
@@ -41,17 +45,27 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
+img.zweefRechts{
+    float: right;
+    margin-left: 15px;
+}
+
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color: rgb(0, 0, 50);
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.inactive {
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -77,13 +91,39 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #BFAD9D;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #BFAD9D;
 }
 
 
+/* goden */
+#Odin {
+  height: 41%;
+}
+
+#Frigg{
+  height: 40%;
+}
+
+#Thor{
+  height: 43%;
+}
+#Loki{
+  height: 47%;
+}
+
+#Hod {
+  height: 47%;
+}
 
 
+.godentext {
+  float: left;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  bottom: 20px;
+}
